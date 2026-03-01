@@ -1,0 +1,552 @@
+{
+  "tasks": [
+    {
+      "id": "td_demo_001",
+      "title": "Finalize Q1 Program Review deck — @Sarah Chen to review slides 8-12",
+      "priority": "urgent",
+      "category": "Milestones",
+      "status": "in_progress",
+      "estDuration": "2h",
+      "dateOpened": "2026-02-20",
+      "lastUpdated": "2026-02-28",
+      "nextActionDate": "2026-02-28",
+      "finalDueDate": "2026-03-02",
+      "dueDateType": "hard",
+      "notes": "VP review on Monday AM. Need final sign-off from @Sarah Chen on data validation section and @Marcus Rivera on budget actuals. Deck is in SharePoint — use latest version only.",
+      "links": [
+        {"label": "Program Review Deck", "url": "https://company.sharepoint.com/sites/program/Shared%20Documents/Q1_Review.pptx"},
+        {"label": "Budget Tracker", "url": "https://company.sharepoint.com/sites/finance/budget-tracker.xlsx"}
+      ],
+      "subtasks": [
+        {
+          "id": "td_demo_001a",
+          "title": "Update risk register slide with latest RAG status",
+          "priority": "high",
+          "category": "Milestones",
+          "status": "done",
+          "estDuration": "30m",
+          "dateOpened": "2026-02-25",
+          "lastUpdated": "2026-02-27",
+          "nextActionDate": "",
+          "finalDueDate": "2026-02-28",
+          "dueDateType": "suggested",
+          "notes": "Done — pulled latest from Jira Align.",
+          "links": [],
+          "subtasks": [],
+          "timerStart": null,
+          "timerAccumulated": 1620
+        },
+        {
+          "id": "td_demo_001b",
+          "title": "Collect workstream status updates from 5 DRIs",
+          "priority": "high",
+          "category": "Milestones",
+          "status": "in_progress",
+          "estDuration": "1h",
+          "dateOpened": "2026-02-24",
+          "lastUpdated": "2026-02-28",
+          "nextActionDate": "2026-02-28",
+          "finalDueDate": "2026-03-01",
+          "dueDateType": "hard",
+          "notes": "3 of 5 received. Waiting on @Tom Nakamura (Validation) and @Priya Desai (Platform SW).",
+          "links": [],
+          "subtasks": [],
+          "timerStart": null,
+          "timerAccumulated": 0
+        }
+      ],
+      "timerStart": null,
+      "timerAccumulated": 5460
+    },
+    {
+      "id": "td_demo_002",
+      "title": "Draft milestone change proposal — Design Review moved to 3/20",
+      "priority": "high",
+      "category": "Milestones",
+      "status": "in_progress",
+      "estDuration": "1.5h",
+      "dateOpened": "2026-02-18",
+      "lastUpdated": "2026-02-27",
+      "nextActionDate": "2026-03-01",
+      "finalDueDate": "2026-03-05",
+      "dueDateType": "hard",
+      "notes": "Design team confirmed they cannot meet original 3/6 date. Need formal change proposal with justification and impact analysis for @Sarah Chen and steering committee.\n\nRoot cause: upstream dependency on component spec not delivered until 2/25.",
+      "links": [
+        {"label": "Change Proposal Template", "url": "https://company.sharepoint.com/sites/program/templates/change-proposal.docx"},
+        {"label": "Jira Epic — Design Review", "url": "https://jira.company.com/browse/PROG-4521"}
+      ],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 2700
+    },
+    {
+      "id": "td_demo_003",
+      "title": "Send Slack reminders to workstream leads — Monday status updates due",
+      "priority": "medium",
+      "category": "Initiative",
+      "status": "not_started",
+      "estDuration": "15m",
+      "dateOpened": "2026-02-28",
+      "lastUpdated": "2026-02-28",
+      "nextActionDate": "2026-03-02",
+      "finalDueDate": "2026-03-02",
+      "dueDateType": "suggested",
+      "notes": "Standard weekly reminder. Include updated template link and deadline (Mon 4PM). Copy @Marcus Rivera.",
+      "links": [
+        {"label": "#program-updates", "url": "https://app.slack.com/client/T123/C456"}
+      ],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 0
+    },
+    {
+      "id": "td_demo_004",
+      "title": "Investigate Jira Align sync failure — Features not rolling up to Capabilities",
+      "priority": "high",
+      "category": "Jira",
+      "status": "blocked",
+      "estDuration": "2h",
+      "dateOpened": "2026-02-22",
+      "lastUpdated": "2026-02-26",
+      "nextActionDate": "2026-03-03",
+      "finalDueDate": "2026-03-07",
+      "dueDateType": "suggested",
+      "notes": "Opened IT ticket #INC-9823. Jira Align admin says it may be a permissions issue on the PI board. Blocked until they respond.\n\n@Tom Nakamura also seeing this on his board.",
+      "links": [
+        {"label": "IT Ticket", "url": "https://servicenow.company.com/incident/INC-9823"},
+        {"label": "Jira Align Board", "url": "https://jiraalign.company.com/board/program-increment"}
+      ],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 3600
+    },
+    {
+      "id": "td_demo_005",
+      "title": "Prepare agenda for cross-functional workgroup kickoff",
+      "priority": "very_high",
+      "category": "Initiative",
+      "status": "in_progress",
+      "estDuration": "1h",
+      "dateOpened": "2026-02-25",
+      "lastUpdated": "2026-02-28",
+      "nextActionDate": "2026-02-28",
+      "finalDueDate": "2026-03-04",
+      "dueDateType": "hard",
+      "notes": "New workgroup to align Platform and Infotainment teams. Co-chairing with @Lisa Park. Need to cover:\n- Stakeholder map and DRI identification\n- Milestone alignment across programs\n- Dependency documentation plan\n- Cadence and communication norms",
+      "links": [
+        {"label": "Meeting Notes Doc", "url": "https://company.sharepoint.com/sites/program/workgroup-notes.docx"},
+        {"label": "Confluence — Stakeholder Map", "url": "https://confluence.company.com/display/PROG/Stakeholder+Map"}
+      ],
+      "subtasks": [
+        {
+          "id": "td_demo_005a",
+          "title": "Build stakeholder RACI matrix",
+          "priority": "high",
+          "category": "Initiative",
+          "status": "done",
+          "estDuration": "45m",
+          "dateOpened": "2026-02-25",
+          "lastUpdated": "2026-02-27",
+          "nextActionDate": "",
+          "finalDueDate": "2026-02-28",
+          "dueDateType": "suggested",
+          "notes": "Completed. 14 stakeholders identified across 4 VP orgs.",
+          "links": [],
+          "subtasks": [],
+          "timerStart": null,
+          "timerAccumulated": 2400
+        },
+        {
+          "id": "td_demo_005b",
+          "title": "Draft Outlook recurring invite with purpose statement",
+          "priority": "medium",
+          "category": "Initiative",
+          "status": "not_started",
+          "estDuration": "20m",
+          "dateOpened": "2026-02-28",
+          "lastUpdated": "2026-02-28",
+          "nextActionDate": "2026-03-01",
+          "finalDueDate": "2026-03-03",
+          "dueDateType": "suggested",
+          "notes": "",
+          "links": [],
+          "subtasks": [],
+          "timerStart": null,
+          "timerAccumulated": 0
+        }
+      ],
+      "timerStart": 1740700800000,
+      "timerAccumulated": 1800
+    },
+    {
+      "id": "td_demo_006",
+      "title": "Review and approve 3 PRDs in backlog",
+      "priority": "medium",
+      "category": "Initiative",
+      "status": "not_started",
+      "estDuration": "3h",
+      "dateOpened": "2026-02-24",
+      "lastUpdated": "2026-02-24",
+      "nextActionDate": "2026-03-04",
+      "finalDueDate": "2026-03-10",
+      "dueDateType": "suggested",
+      "notes": "Three PRDs pending PgM review:\n1. Navigation v2.1 — @Priya Desai\n2. Sensor Fusion Update — @Tom Nakamura\n3. OTA Delivery Pipeline — @James Okafor",
+      "links": [
+        {"label": "PRD Tracker", "url": "https://confluence.company.com/display/PROG/PRD+Tracker"}
+      ],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 0
+    },
+    {
+      "id": "td_demo_007",
+      "title": "Update program risk register — add 2 new risks from validation team",
+      "priority": "high",
+      "category": "Milestones",
+      "status": "not_started",
+      "estDuration": "45m",
+      "dateOpened": "2026-02-27",
+      "lastUpdated": "2026-02-27",
+      "nextActionDate": "2026-02-28",
+      "finalDueDate": "2026-02-28",
+      "dueDateType": "suggested",
+      "notes": "@Tom Nakamura flagged:\n1. Hardware bench delivery delayed 2 weeks — sensor availability\n2. Test environment not matching production config",
+      "links": [
+        {"label": "Risk Register", "url": "https://company.sharepoint.com/sites/program/risk-register.xlsx"}
+      ],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 0
+    },
+    {
+      "id": "td_demo_008",
+      "title": "Automate weekly status email — Python script to pull Jira metrics",
+      "priority": "low",
+      "category": "Misc",
+      "status": "in_progress",
+      "estDuration": "5h",
+      "dateOpened": "2026-02-10",
+      "lastUpdated": "2026-02-22",
+      "nextActionDate": "2026-03-07",
+      "finalDueDate": "2026-03-14",
+      "dueDateType": "suggested",
+      "notes": "Side project to reduce manual status collection. Script pulls from Jira REST API, formats HTML email, sends via Outlook.\n\nProgress: API auth working, basic query done. Need to add formatting and scheduling.",
+      "links": [
+        {"label": "GitHub Repo", "url": "https://github.com/user/status-automation"}
+      ],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 7200
+    },
+    {
+      "id": "td_demo_009",
+      "title": "Schedule 1:1s with new workstream DRIs (3 people)",
+      "priority": "medium",
+      "category": "Initiative",
+      "status": "not_started",
+      "estDuration": "20m",
+      "dateOpened": "2026-02-26",
+      "lastUpdated": "2026-02-26",
+      "nextActionDate": "2026-03-02",
+      "finalDueDate": "2026-03-06",
+      "dueDateType": "suggested",
+      "notes": "New DRIs onboarded for Q2:\n- @Elena Volkov (Security)\n- @James Okafor (OTA)\n- Platform lead TBD\n\nSend intro emails and set up 30min recurring biweekly.",
+      "links": [],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 0
+    },
+    {
+      "id": "td_demo_010",
+      "title": "Compile end-of-month FTEH actuals for finance",
+      "priority": "very_high",
+      "category": "Reporting",
+      "status": "not_started",
+      "estDuration": "1.5h",
+      "dateOpened": "2026-02-26",
+      "lastUpdated": "2026-02-26",
+      "nextActionDate": "2026-02-28",
+      "finalDueDate": "2026-02-28",
+      "dueDateType": "hard",
+      "notes": "Monthly deliverable. Pull hours from Jira time tracking, reconcile with finance spreadsheet. Hard deadline — finance closes books Monday AM.",
+      "links": [
+        {"label": "FTEH Tracker", "url": "https://company.sharepoint.com/sites/finance/fteh-tracker.xlsx"},
+        {"label": "Jira Time Report", "url": "https://jira.company.com/plugins/servlet/project-config/timereport"}
+      ],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 0
+    },
+    {
+      "id": "td_demo_011",
+      "title": "Follow up with IT on VPN access for new contractor",
+      "priority": "low",
+      "category": "Misc",
+      "status": "in_progress",
+      "estDuration": "10m",
+      "dateOpened": "2026-02-14",
+      "lastUpdated": "2026-02-21",
+      "nextActionDate": "2026-03-01",
+      "finalDueDate": "2026-03-05",
+      "dueDateType": "suggested",
+      "notes": "IT ticket #REQ-3847 opened 2/14. No response after first follow-up. Try escalation path through @Marcus Rivera if no update by 3/3.",
+      "links": [
+        {"label": "IT Ticket", "url": "https://servicenow.company.com/request/REQ-3847"}
+      ],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 0
+    },
+    {
+      "id": "td_demo_012",
+      "title": "Write technical assessment summary for steering committee",
+      "priority": "medium",
+      "category": "Milestones",
+      "status": "not_started",
+      "estDuration": "2h",
+      "dateOpened": "2026-02-28",
+      "lastUpdated": "2026-02-28",
+      "nextActionDate": "2026-03-06",
+      "finalDueDate": "2026-03-12",
+      "dueDateType": "suggested",
+      "notes": "Summarize 4 tech assessments into executive-friendly 2-pager. Focus on schedule impact and resource asks.",
+      "links": [
+        {"label": "Tech Assessment Folder", "url": "https://confluence.company.com/display/PROG/Tech+Assessments"}
+      ],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 0
+    },
+    {
+      "id": "td_demo_closed_001",
+      "title": "Set up Jira Align board for PI-4 planning",
+      "priority": "high",
+      "category": "Jira",
+      "status": "closed",
+      "estDuration": "1h",
+      "dateOpened": "2026-02-10",
+      "lastUpdated": "2026-02-20",
+      "nextActionDate": "",
+      "finalDueDate": "2026-02-20",
+      "dueDateType": "hard",
+      "notes": "Board created. Capabilities and Features populated. Shared with team.",
+      "links": [],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 4200
+    },
+    {
+      "id": "td_demo_closed_002",
+      "title": "Deliver February program status to VP",
+      "priority": "urgent",
+      "category": "Milestones",
+      "status": "closed",
+      "estDuration": "3h",
+      "dateOpened": "2026-02-15",
+      "lastUpdated": "2026-02-25",
+      "nextActionDate": "",
+      "finalDueDate": "2026-02-25",
+      "dueDateType": "hard",
+      "notes": "Delivered on time. VP approved with minor edits to risk section.",
+      "links": [],
+      "subtasks": [],
+      "timerStart": null,
+      "timerAccumulated": 10800
+    }
+  ],
+  "recurringTasks": [
+    {
+      "id": "rec_001",
+      "name": "Prep status slides",
+      "meeting": "Program Review",
+      "type": "Prepare",
+      "owner": "Self",
+      "dayOfWeek": "Monday",
+      "dayNumber": 1,
+      "links": [],
+      "weekStatuses": {
+        "2026-02-09": "dn",
+        "2026-02-16": "dn",
+        "2026-02-23": "dn",
+        "2026-03-02": "ns"
+      }
+    },
+    {
+      "id": "rec_002",
+      "name": "Lead program review meeting",
+      "meeting": "Program Review",
+      "type": "Hold",
+      "owner": "Self",
+      "dayOfWeek": "Tuesday",
+      "dayNumber": 2,
+      "links": [],
+      "weekStatuses": {
+        "2026-02-09": "dn",
+        "2026-02-16": "dn",
+        "2026-02-23": "dn",
+        "2026-03-02": "ns"
+      }
+    },
+    {
+      "id": "rec_003",
+      "name": "Distribute meeting notes & action items",
+      "meeting": "Program Review",
+      "type": "Postpare",
+      "owner": "Self",
+      "dayOfWeek": "Tuesday",
+      "dayNumber": 2,
+      "links": [],
+      "weekStatuses": {
+        "2026-02-09": "dn",
+        "2026-02-16": "dn",
+        "2026-02-23": "dn",
+        "2026-03-02": "ns"
+      }
+    },
+    {
+      "id": "rec_004",
+      "name": "Collect workstream status updates",
+      "meeting": "Weekly Standup",
+      "type": "Prepare",
+      "owner": "DRI Leads",
+      "dayOfWeek": "Monday",
+      "dayNumber": 1,
+      "links": [],
+      "weekStatuses": {
+        "2026-02-09": "dn",
+        "2026-02-16": "dn",
+        "2026-02-23": "ip",
+        "2026-03-02": "ns"
+      }
+    },
+    {
+      "id": "rec_005",
+      "name": "Run cross-functional standup",
+      "meeting": "Weekly Standup",
+      "type": "Hold",
+      "owner": "Self / Lisa Park",
+      "dayOfWeek": "Wednesday",
+      "dayNumber": 3,
+      "links": [],
+      "weekStatuses": {
+        "2026-02-09": "dn",
+        "2026-02-16": "dn",
+        "2026-02-23": "dn",
+        "2026-03-02": "ns"
+      }
+    },
+    {
+      "id": "rec_006",
+      "name": "Update Jira Align boards",
+      "meeting": "Sprint Hygiene",
+      "type": "Reporting",
+      "owner": "Self",
+      "dayOfWeek": "Thursday",
+      "dayNumber": 4,
+      "links": [],
+      "weekStatuses": {
+        "2026-02-09": "dn",
+        "2026-02-16": "dn",
+        "2026-02-23": "ip",
+        "2026-03-02": "ns"
+      }
+    },
+    {
+      "id": "rec_007",
+      "name": "Review risk register updates",
+      "meeting": "Risk Review",
+      "type": "Prepare",
+      "owner": "Self",
+      "dayOfWeek": "Thursday",
+      "dayNumber": 4,
+      "links": [],
+      "weekStatuses": {
+        "2026-02-09": "dn",
+        "2026-02-16": "ip",
+        "2026-02-23": "dn",
+        "2026-03-02": "ns"
+      }
+    },
+    {
+      "id": "rec_008",
+      "name": "Send weekly metrics report to leadership",
+      "meeting": "Reporting",
+      "type": "Reporting",
+      "owner": "Self",
+      "dayOfWeek": "Friday",
+      "dayNumber": 5,
+      "links": [],
+      "weekStatuses": {
+        "2026-02-09": "dn",
+        "2026-02-16": "dn",
+        "2026-02-23": "dn",
+        "2026-03-02": "ns"
+      }
+    },
+    {
+      "id": "rec_009",
+      "name": "PI planning prep — update backlog priorities",
+      "meeting": "PI Planning",
+      "type": "Prepare",
+      "owner": "Product Team",
+      "dayOfWeek": "Friday",
+      "dayNumber": 5,
+      "links": [],
+      "weekStatuses": {
+        "2026-02-09": "dn",
+        "2026-02-16": "ns",
+        "2026-02-23": "ip",
+        "2026-03-02": "ns"
+      }
+    },
+    {
+      "id": "rec_010",
+      "name": "1:1 with manager",
+      "meeting": "1:1",
+      "type": "Hold",
+      "owner": "Self / Manager",
+      "dayOfWeek": "Wednesday",
+      "dayNumber": 3,
+      "links": [],
+      "weekStatuses": {
+        "2026-02-09": "dn",
+        "2026-02-16": "dn",
+        "2026-02-23": "dn",
+        "2026-03-02": "ns"
+      }
+    }
+  ],
+  "contacts": [
+    {"name": "Sarah Chen", "email": "sarah.chen@company.com", "role": "Sr. Manager, Program Ops", "tagCount": 8},
+    {"name": "Marcus Rivera", "email": "marcus.r@company.com", "role": "Finance Lead", "tagCount": 5},
+    {"name": "Tom Nakamura", "email": "tom.n@company.com", "role": "Validation DRI", "tagCount": 6},
+    {"name": "Priya Desai", "email": "priya.d@company.com", "role": "Platform SW Lead", "tagCount": 4},
+    {"name": "Lisa Park", "email": "lisa.park@company.com", "role": "PgM, Infotainment", "tagCount": 3},
+    {"name": "James Okafor", "email": "james.o@company.com", "role": "OTA Lead", "tagCount": 2},
+    {"name": "Elena Volkov", "email": "elena.v@company.com", "role": "Security DRI", "tagCount": 1}
+  ],
+  "holidays": [
+    {"name": "New Year's Day", "startDate": "2026-01-01", "endDate": "2026-01-01"},
+    {"name": "MLK Day", "startDate": "2026-01-19", "endDate": "2026-01-19"},
+    {"name": "Presidents' Day", "startDate": "2026-02-16", "endDate": "2026-02-16"},
+    {"name": "Memorial Day", "startDate": "2026-05-25", "endDate": "2026-05-25"},
+    {"name": "Independence Day", "startDate": "2026-07-03", "endDate": "2026-07-04"},
+    {"name": "Labor Day", "startDate": "2026-09-07", "endDate": "2026-09-07"},
+    {"name": "Thanksgiving", "startDate": "2026-11-26", "endDate": "2026-11-27"},
+    {"name": "Christmas", "startDate": "2026-12-24", "endDate": "2026-12-25"}
+  ],
+  "categories": ["Milestones", "Initiative", "Jira", "Reporting", "Misc"],
+  "preferences": {
+    "calendarZoom": 1,
+    "sortMode": "smart",
+    "lastTab": "regular",
+    "completedExpanded": false,
+    "expandedTasks": {
+      "td_demo_001": true,
+      "td_demo_005": true
+    },
+    "recurringArchivedWeeks": ["2026-02-09"],
+    "recurringWeeksAhead": 6,
+    "recColWidths": {}
+  }
+}
